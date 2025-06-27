@@ -1,0 +1,82 @@
+﻿<Window x:Class="ThreeButtonCounter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Collatz AutoGUI - Version 1.0.0" Height="750" Width="600"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+        
+        <!-- Counter Display -->
+        <TextBlock Grid.Row="0" Text="Counter:" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
+        <TextBlock Grid.Row="1" x:Name="CounterDisplay" Text="1" FontSize="24" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,0,0,20" Foreground="Blue"/>
+        
+        <!-- Buttons -->
+        <Button Grid.Row="2" x:Name="AddRandomButton" Content="Random Number (1-IntLimit)" 
+                Height="45" Margin="0,5" FontSize="14" Click="AddRandomButton_Click"/>
+        
+        <!-- Custom Number Input -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
+                <TextBox x:Name="CustomNumberInput" Width="200" Height="30" FontSize="14" 
+                         Text=""
+                         VerticalContentAlignment="Center" Margin="0,0,10,0"/>
+                <Button x:Name="SetCustomButton" Content="Set Custom Number" Width="140" Height="30"
+                        FontSize="12" Click="SetCustomButton_Click"/>
+        </StackPanel>
+
+        
+        <Button Grid.Row="4" x:Name="MultiplyAddButton" Content="Multiply by 3 and Add 1" 
+                Height="45" Margin="0,5" FontSize="14" Click="MultiplyAddButton_Click"/>
+        
+        <Button Grid.Row="5" x:Name="DivideButton" Content="Divide by 2" 
+                Height="45" Margin="0,5" FontSize="14" Click="DivideButton_Click"/>
+        
+        <!-- Graph Button -->
+        <Button Grid.Row="6" x:Name="ShowGraphButton" Content="📊 Show Graph Window" 
+                Height="45" Margin="0,15,0,5" FontSize="14" FontWeight="Bold" 
+                Background="LightGreen" Click="ShowGraphButton_Click"/>
+        
+        <!-- Check Button -->
+        <Button Grid.Row="7" x:Name="ShowCheckButton" Content="🔑 Check .collatz Files" 
+                Height="45" Margin="0,5" FontSize="14" FontWeight="Bold" 
+                Background="LightCoral" Click="ShowCheckButton_Click"/>
+
+        
+        <!-- Auto Mode Controls -->
+        <TextBlock Grid.Row="8" Text="Auto Mode:" FontSize="14" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,20,0,10"/>
+        
+        <!-- AutoLog -->
+        <CheckBox Grid.Row="9" x:Name="AutoSaveCheckBox" Content="Auto-save log when reaching 1" 
+                  HorizontalAlignment="Center" Margin="0,50,0,0" FontSize="12" 
+                  IsChecked="False"/>
+        
+        <StackPanel Grid.Row="10" Orientation="Horizontal" HorizontalAlignment="Center" 
+                    Margin="0,10,0,0">
+            <Button x:Name="AutoButton" Content="Start Auto" Width="120" Height="40" 
+                    Margin="5" FontSize="14" Click="AutoButton_Click"/>
+            <TextBlock x:Name="AutoStatus" Text="Auto: Off" VerticalAlignment="Center" 
+                       Margin="15,0,0,0" FontWeight="Bold" FontSize="14"/>
+        </StackPanel>
+        
+        <!-- Instructions -->
+        <TextBlock Grid.Row="12" Text="Conjecture: If odd → 3x+1 (where X is the number), If even → ÷2. Conjecture is that all numbers will eventually reach 1 which will result in a 4 -> 2 -> 1 loop." 
+                   FontSize="12" Foreground="Gray" TextWrapping="Wrap" 
+                   HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,20,0,0"/>
+    </Grid>
+</Window>

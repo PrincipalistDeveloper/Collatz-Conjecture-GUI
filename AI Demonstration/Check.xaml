@@ -1,0 +1,49 @@
+﻿<Window x:Class="ThreeButtonCounter.CheckWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Validator" Height="600" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Header -->
+        <TextBlock Grid.Row="0" Text="Collatz Sequence Validator" FontSize="20" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,0,0,20"/>
+        
+        <!-- File Selection -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,15">
+            <Button x:Name="SelectFileButton" Content="📁 Select .collatz File" Width="150" Height="35" 
+                    Margin="0,0,10,0" Click="SelectFileButton_Click"/>
+            <TextBlock x:Name="FilePathText" Text="No file selected" VerticalAlignment="Center" 
+                       FontStyle="Italic" Foreground="Gray"/>
+        </StackPanel>
+        
+        <!-- Results Display -->
+        <Border Grid.Row="2" BorderBrush="Gray" BorderThickness="1" Padding="10">
+            <ScrollViewer>
+                <TextBlock x:Name="ResultsText" FontFamily="Consolas" FontSize="12" 
+                           TextWrapping="Wrap" Background="White"/>
+            </ScrollViewer>
+        </Border>
+        
+        <!-- Validation Status -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,0">
+            <TextBlock x:Name="ValidationStatus" Text="Ready to validate" FontSize="14" FontWeight="Bold" 
+                       Foreground="Blue"/>
+        </StackPanel>
+        
+        <!-- Control Buttons -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <Button x:Name="ValidateButton" Content="✓ Validate Sequence" Width="140" Height="35" 
+                    Margin="5" Click="ValidateButton_Click" IsEnabled="False" Background="LightGreen"/>
+            <Button x:Name="ClearButton" Content="🗑️ Clear Results" Width="120" Height="35" 
+                    Margin="5" Click="ClearButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

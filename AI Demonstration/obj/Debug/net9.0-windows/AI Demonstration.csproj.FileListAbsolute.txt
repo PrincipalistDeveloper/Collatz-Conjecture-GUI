@@ -1,0 +1,23 @@
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\bin\Debug\net9.0-windows\AI Demonstration.exe
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\bin\Debug\net9.0-windows\AI Demonstration.deps.json
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\bin\Debug\net9.0-windows\AI Demonstration.runtimeconfig.json
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\bin\Debug\net9.0-windows\AI Demonstration.dll
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\bin\Debug\net9.0-windows\AI Demonstration.pdb
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\AI Demonstration_MarkupCompile.cache
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\AI Demonstration.g.resources
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\AI Demonstration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\AI Demonstration.AssemblyInfoInputs.cache
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\AI Demonstration.AssemblyInfo.cs
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\AI Demonstration.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\AI Demonstration.dll
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\refint\AI Demonstration.dll
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\AI Demonstration.pdb
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\AI Demonstration.genruntimeconfig.cache
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\ref\AI Demonstration.dll
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\Graph.baml
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\Graph.g.cs
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\Check.baml
+C:\Users\Ivan\RiderProjects\AI Demonstration\AI Demonstration\obj\Debug\net9.0-windows\Check.g.cs
