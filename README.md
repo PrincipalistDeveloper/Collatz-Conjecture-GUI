@@ -7,3 +7,6 @@ This program is both entertainment and easy checking of any number. There is a g
 
 ## This number is too big!
 Due to the way computers work, it is a physical-technical limitation. Computers are designed to process numbers up to 10^308, any higher and it will be deemed as "Infinity". Additionally, the graphing function completely fails at values beyond 9223372036854775807. 
+
+## What are the requirements?
+You just need NET 9.0.6 from Microsoft. A 64 bit computer is also *ideal* but not neccessary.
