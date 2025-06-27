@@ -1,0 +1,1 @@
+Graph, log, tinker, and validate the beauty of the simplest yet hardest conjecture in Mathmaetics. This program is an all in one GUI suite to analyze and log. It contains many features to assist and improve QoL when checking numbers. It also contains a manual mode for control.
