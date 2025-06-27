@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI Demonstration", "AI Demonstration\AI Demonstration.csproj", "{51BF8979-7E4A-40CB-8C5C-EC054ADE93EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "collatz conjecture", "collatz conjecture\collatz conjecture.csproj", "{51BF8979-7E4A-40CB-8C5C-EC054ADE93EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

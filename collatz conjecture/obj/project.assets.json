@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\RiderProjects\\AI Demonstration\\AI Demonstration\\AI Demonstration.csproj",
-      "projectName": "AI Demonstration",
-      "projectPath": "C:\\Users\\Ivan\\RiderProjects\\AI Demonstration\\AI Demonstration\\AI Demonstration.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\RiderProjects\\AI Demonstration\\collatz conjecture\\collatz conjecture.csproj",
+      "projectName": "collatz conjecture",
+      "projectPath": "C:\\Users\\Ivan\\RiderProjects\\AI Demonstration\\collatz conjecture\\collatz conjecture.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan\\RiderProjects\\AI Demonstration\\AI Demonstration\\obj\\",
+      "outputPath": "C:\\Users\\Ivan\\RiderProjects\\AI Demonstration\\collatz conjecture\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config"
